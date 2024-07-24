@@ -1,0 +1,1 @@
+In this repository I write infirmation about working with makefiles and with github.

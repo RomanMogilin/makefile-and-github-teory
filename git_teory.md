@@ -14,6 +14,14 @@ or
 git config --global user.email
 ```
 
+To change this data write it like this
+
+```bash
+git config --global user.name "NEW_USER_NAME"
+or
+git config --global user.email "NEW_EMAIL"
+```
+
 Then copy command from GitHub site where
 
 ```bash
