@@ -31,3 +31,13 @@ To commite files in repository and give name this commit:
 ```bash
 git commit -m "MESSAGE"
 ```
+
+# Git ignore
+
+To ignore files or folders by git create file ".gitignore". In this file you can write name of files of directories.
+
+Example:
+```bash
+FILE_NAME.EXTENTION
+FOLDER_NAME
+```
