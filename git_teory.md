@@ -22,7 +22,7 @@ or
 git config --global user.email "NEW_EMAIL"
 ```
 
-Then copy command from GitHub site where
+Then copy command from GitHub site where you create repository
 
 ```bash
 git remote add origin https://github.com/USER_NAME/REPOSITORY_NAME.git
@@ -47,6 +47,18 @@ If you want to untrack file or files write:
 
 ```bash
 git rm --cached FILES/FILE
+```
+
+To clone repository write:
+
+```bash
+git clone https://github.com/USER_NAME/REPOSITORY_NAME.git
+```
+
+To get last version of code from server:
+
+```bash
+git pull
 ```
 
 # Commit
