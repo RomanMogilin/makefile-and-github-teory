@@ -41,3 +41,35 @@ Example:
 FILE_NAME.EXTENTION
 FOLDER_NAME
 ```
+
+# Branch
+
+If you want to know current branch and list of branches:
+
+```bash
+git branch
+```
+
+To create new branch:
+
+```bash
+git branch BRANCH_NAME
+```
+
+To delete branch:
+
+```bash
+git branch -D BRANCH_NAME
+```
+
+To change branch:
+
+```bash
+git checkout BRANCH_NAME
+```
+
+To merge two branches in one branch (merge active branch with branch under name BRANCH_NAME):
+
+```bash
+git merge BRANCH_NAME
+```
