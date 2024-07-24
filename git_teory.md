@@ -6,6 +6,23 @@ To start project in directory you must write (create folder /.git):
 git init
 ```
 
+After on GitHubsite create repository and in terminal write to change user name or email. You must write data witch you write to log in GitHub:
+
+```bash
+git config --global user.name
+or
+git config --global user.email
+```
+
+Then copy command from GitHub site where
+
+```bash
+git remote add origin https://github.com/USER_NAME/REPOSITORY_NAME.git
+git push -u origin BRANCH_NAME
+```
+
+# Common commands
+
 If you want to know status of files in git use command:
 
 ```bash
@@ -43,6 +60,12 @@ FOLDER_NAME
 ```
 
 # Branch
+
+Rename branch:
+
+```bash
+git branch -M NEW_BRANCH_NAME
+```
 
 If you want to know current branch and list of branches:
 
